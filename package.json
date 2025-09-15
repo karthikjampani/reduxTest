@@ -1,0 +1,29 @@
+{
+  "name": "dexai-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "axios": "^1.12.2",
+    "next": "14.2.32",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.32",
+    "typescript": "^5"
+  }
+}
